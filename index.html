@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Blog</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+
+	<h1>Techie Blog</h1>
+
+	<nav>
+		<button class="blog navbutton">Blog</button>
+		<button class="cooltech navbutton">Cool Tech</button>
+		<button class="about navbutton">About the Author</button>
+	</nav>
+
+	<section class="blog tabs">
+		<section id="makepost">
+			<div id="content">
+				<h2>Make a new post!</h2>
+
+				<h3>Title</h3>
+				<input id="title" type="text" name="title">
+
+				<br>
+
+				<h3>Post:</h3>
+				<textarea id="post" name="post" rows="15" cols="60"></textarea>
+
+				<br>
+			</div>
+			
+
+			<button id="submit" class="btn">Create Blog Post</button>
+		</section>
+
+		<section id="readblog">
+			<h2>Read our blog!</h2>
+		</section>
+
+		<section id="main">
+			
+		</section>
+
+	</section>
+
+	<section class="cooltech tabs hidden">
+		<h2>This is some cool tech we have going on here!</h2>
+
+		<div id="techgrid">
+			<img src="images/3dprinter.jpg">
+			<p class="description">XYZprinting da Vinci Mini 3D Printer</p>
+
+			<img src="images/nswitch.jpg">
+			<p class="description">Nintendo Switch</p>
+
+			<img src="images/airpurifier.jpg">
+			<p class="description">Airmega 400s Air Purifier</p>
+
+			<img src="images/logitechg.jpg">
+			<p class="description">Logitech Gaming Mouse</p>
+
+			<img src="images/coolcamera.jpg">
+			<p class="description">Olymus Touch TG-Tracker</p>
+
+			<img src="images/djcontroller.jpg">
+			<p class="description">Pioneer DJ DDJ-SB2 DJ Controller</p>
+		</div>
+		
+	</section>
+
+	<section class="about tabs hidden">
+		<h2>About me: Christopher Clark</h2>
+		<p>Christopher Clark is a student at Palo Alto High School. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<br>
+
+		<p>He isn't really sure what to write here so he'll probably put more lorem ipsum text. Like so: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+
+	<footer>
+		<p>Made by Christopher Clark. Rights possibly reserved.</p>
+	</footer>
+
+	<script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>
